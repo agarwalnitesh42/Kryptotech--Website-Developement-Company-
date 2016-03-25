@@ -1,0 +1,31 @@
+@font-face{
+	font-family:Sourcesans;
+	src: url(../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:Ubuntu;
+	src: url(../fonts/Ubuntu/Ubuntu-Light.ttf) format("truetype");
+}
+
+@font-face{
+	font-family:UbuntuRegular;
+	src: url(../fonts/Ubuntu/Ubuntu-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Myriad;
+	src: url(../fonts/Myriad/MyriadPro-Light.otf) format("opentype");
+}
+
+
+
+@font-face {
+	font-family: webRegular;
+	src: url(../fonts/Titillium_Web/TitilliumWeb-Regular.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: webLight;
+	src: url(../fonts/Titillium_Web/TitilliumWeb-Light.ttf) format("truetype");
+}

@@ -1,0 +1,351 @@
+#header{
+	height: 50px;
+}
+
+.logoHead{
+	width: 50px;
+	height: 50px;
+	margin-left: 15px;
+}
+
+.menuLogo{
+	float: right;
+	display: block;
+	width: 25px;
+	height: 15px;
+	position: relative;
+	top: 17px;
+	cursor: pointer;
+}
+
+#menuHolder{
+	float: none;
+	/*position: relative;*/
+}
+
+#menu{
+	display: none;
+	font-size: 18px;
+	margin-top: 5px;
+	position: absolute;
+	border-bottom:1px #413839 solid;
+	top: 45px;
+	left: 0px;
+	min-width: 100%;
+	background: rgba(65, 56, 57,0.9);
+}
+
+#menu li{
+	display: block;
+	color: #fff;
+}
+
+#display{
+	background: url(../images/backgrounds/rajpath.jpg) no-repeat; 
+	background-size: 100% 100%;
+}
+
+#display2{
+	background: url(../images/backgrounds/home_wilderness.jpg) no-repeat; 
+	background-size: 100% 100%;
+}
+
+#display3{
+	background: url(../images/backgrounds/skydive.jpg) no-repeat fixed; 
+	background-size: 100% 100%;
+}
+
+#leaveTop{
+	top: 50px;
+}
+
+.mainHeading{
+	font-size: 45px;
+}
+
+.cloud{display: none;}
+
+#about{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.aboutUs{
+	font-size: 18px;
+	padding: 5px;
+}
+
+#whyUs h1{
+	font-size: 22px;
+}
+
+#whyTabs{
+	height: 130px;
+}
+
+.tab{
+	height: 130px;
+	margin-left: 2px;
+}
+
+
+.tab p{
+	font-size: 14px;
+}
+
+#services h1{
+	font-size: 22px;
+}
+
+.services{
+	width: 97%;
+	height: 600px;
+}
+
+.services li{
+	float: none;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.services h2{
+	font-size: 20px;
+}
+
+.services p{
+	font-size: 16px;
+	width: auto;
+	padding-right: 5px !important;
+}
+
+.goRight h2{
+	text-align: left;
+	padding-left: 50px;
+}
+
+.goRight p{
+	float: none;
+	text-align: left;
+	padding-right: 0px;
+}
+
+.webDev{
+	background: url(../images/webDev.png) no-repeat;
+	background-size: contain;
+	padding-left: 50px;
+}
+
+.webHost{
+	background: url(../images/webHost.png) no-repeat;
+	background-size: contain;
+	padding-left: 50px;
+}
+
+.database{
+	background: url(../images/database.png) no-repeat;
+	background-size: contain;
+	padding-left: 50px;
+	
+}
+
+.ui{
+	background: url(../images/ui.png) no-repeat;
+	background-size: contain;
+	padding-right: 50px;
+}
+
+.logoDesign{
+	background: url(../images/logoDesign.png) no-repeat;
+	background-size: contain;
+	padding-right: 50px;
+}
+
+.services button{
+	float: none;
+	border:none;
+	font-family: webRegular;
+	font-size: 16px;
+	padding: 3px;
+	width: 49%;
+	color: #fff;
+	background: #e74c3c;
+	position: relative;
+	top: 20px;
+	left: 25%;
+	right: 0px;
+	cursor: pointer;
+}
+
+#banner{
+	min-width: 100%;
+	max-width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: url(../images/backgrounds/india2.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+
+#banner h1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color:#fff;
+	font-family: ubuntuRegular;
+	font-size: 22px;
+}
+
+#comment .centre{width: 95%;}
+
+.holderPragya{
+	width: 75px;
+	height: 75px;
+	padding: 10px;
+	border-radius: 100px;
+	margin-left: 5px;
+}
+
+.holderPragya img{
+	width: 75px;
+	height: 75px;
+}
+
+#comment p{
+	width: 50%;
+	padding: 10px;
+	margin-top: 0px;
+	border-radius: 5px;
+	padding-left: 15px;
+	margin-right: 10px;
+	font-size: 14px !important;
+	top: -15px;
+}
+
+.arrow_box { position: relative; background: #2B1B17; } .arrow_box:after { right: 100%; top: 50%; border: solid transparent; content: " "; height: 0; width: 0; position: absolute; pointer-events: none; border-color: rgba(43, 27, 23, 0); border-right-color: #2B1B17; border-width: 12px; margin-top: -12px; }
+
+#clients h1{
+	font-size: 22px;
+}
+
+#clientLogo{width: 100%; height: auto;}
+
+#clientLogo img{
+	float: none;
+	padding: 5px;
+	margin-top: 5px;
+	position: relative;
+	margin-left: 0px;
+	opacity: 1;
+}
+
+#clientLogo img:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+.oracle{width:95%; top: 0px; left: 2%;}
+.jaypee{width: 75%; left: 12%;}
+.flugel{width: 80%; top: 0px; left: 10%;}
+.pyrobook{width: 30%; top: 0px; left: 35%;}
+.pragya{width: 70%; left: 15%;}
+
+#owner h1{
+	font-size: 22px;
+}
+
+#pratyush, #aman, #gaurav{
+	float: none !important;
+	width: 95%;
+	padding: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 100px;
+	margin-bottom: 20px;
+}
+
+#aman{
+	background: url(../images/aman.gif) no-repeat;
+	background-size: contain;
+	background-position: 0% 0%;
+}
+
+#pratyush h2, #aman h2, #gaurav h2{
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+#pratyush p, #aman p, #gaurav p{
+	font-size: 16px;
+}
+
+#pratyush h2, #pratyush p, #gaurav h2, #gaurav p, #aman h2, #aman p{
+	padding-left: 130px;
+}
+
+#contact h1{
+	font-size: 22px;
+}
+
+#inCont{
+	width: 100%;
+	height: auto;
+}
+
+#cont-left, #cont-right{
+	width: 100%;
+	float: none !important;
+	padding-left: 0px;
+}
+
+#contact p{
+	font-size: 18px;
+	padding: 3px;
+	margin-top: 10px;
+	padding-left: 50px;
+}
+
+#contact p:first-child{
+	margin-top: 10px;
+}
+
+.message{
+	padding-top: 0px;
+	padding-right: 0px;
+	margin-top: 20px;
+}
+
+.message input:not([type="submit"]){
+	width: 80%;
+	height: 20px;
+	padding: 3px;
+	font-size: 15px;
+	padding-left: 8px;
+	margin-top: 7px;
+	padding-right: 8px;
+	border:1px #fff solid;
+}
+
+.message textarea{
+	margin-top: 10px;
+	width: 50%;
+	height: 100px;
+	border:1px #fff solid;
+	padding: 3px;
+	font-size: 15px;
+	padding-left: 7px;
+}
+
+.message input[type="submit"]{
+	width: 30%;
+	padding: 3px;
+	bottom: 1px;
+	left: 5px;
+	font-size: 12px;
+}
+
+.message input[type="submit"]:hover{
+	width: 30%;
+}
+
+#footer p{
+	font-size: 14px;
+}
